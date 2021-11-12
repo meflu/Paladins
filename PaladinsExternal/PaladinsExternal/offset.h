@@ -27,7 +27,7 @@ inline namespace Paladins
 		class Offsets : public Singleton<Offsets>
 		{
 		public:
-			DWORD ENGINE = 0x371E880; // Paladins.exe + ENGINE -> UEngine 
+			DWORD ENGINE = 0x3768120; // Paladins.exe + ENGINE -> UEngine 
 
 			DWORD LOCALPLAYER = 0x6D8; // UEngine -> ULocalPlayer
 			DWORD CONTROLLER = 0x68; // ULocalPlayer -> APlayerController
